@@ -1,0 +1,16 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px ;
+    color: red;
+}
+
+.descripcion{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color:black;
+}
+.logo{
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+}
