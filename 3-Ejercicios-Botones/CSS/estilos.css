@@ -1,0 +1,163 @@
+.basic-button-p {
+font-size: 16px;
+background-color: #ddda12;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+.basic-button- {
+    padding: l0px 20px;
+    font-size: 16px;
+    background-color: #8dc98f;
+    color: white;
+    border: none;
+    Cursor: pointer;
+}
+
+.basic-button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border:none;
+    border-radius: 15px;
+    cursor:pointer;
+}
+
+.icon-button {
+    padding: l0px 20px;
+    font-size: 16px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    Cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+    .icon-button i {
+    margin-right: 10px;
+    }
+
+    .animated-button {
+        padding: 1Üpx 2Üpx;
+        font-size: 16px;
+        background-color: #f44336;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        Cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .anxmated-button::after{
+        content: "";
+background: #FFF;
+display: block;
+position: absolute;
+padding-top: 300%;
+padding-left: 350%;
+margin-left:-20px !important;
+margin-top : -120%;
+opacity: 0;
+transition :all 0.8s;
+    }
+
+    .animated-button:active::after {
+        padding: Ü;
+        margin: Ü;
+        opacity: 1;
+        transition :0s;
+    }
+
+    .fancy-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #673AB7;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .fancy-button i {
+        margin-right: 10px;
+    }
+        .fancy-button::after {
+        content:"";
+        background:#FFF;
+        display: block;
+        position: absolute;padding-top:300%;padding-left: 350%;
+        margin-left:-20px !important;
+        margin-top:-120%;
+        opacity:0;
+        transition: all 0.8s;
+    }
+    .fancy-button:active::after {
+        padding: 0;
+        margin: 0;
+        opacity:1;
+        transition: 0s;
+    }
+    
+    .round-button {
+        padding: 10px;
+        font-size: 16px;
+        background-color:#E91E63;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width:60px;
+        height:60px;
+        cursor: pointer;
+    }
+    
+    .semi-round-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #03A9F4;
+        color:white;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    /* btn largo */
+    .long-button {
+        padding: 10px 50px;
+        font-size:16px;
+        background-color:#FF9800;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .short-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color:#685a0c;
+        color: white;
+        border:none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+        /* btn redondeado extremos */
+        .extreme-round-button {
+        padding: 10px 30px;
+        font-size:16px;
+        background-color: #9C27B0;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    button {
+        margin-bottom: 10px; /* Espacio entre botones verticalmente */
+        margin-right: 10px; /* Espacio entre botones horizontalmente */
+    }
